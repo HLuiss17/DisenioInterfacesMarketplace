@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "nombre": "Vehículos",
+        "img": "../ImgVehiculos/Vehículos1.jpg",
+        "descripcion": "Vehículo",
+        "precio": "700,00"
+    },
+    {
+        "id": 2,
+        "nombre": "Moto",
+        "img": "../ImgVehiculos/v2.jpg",
+        "descripcion": "Crédito sin entrada",
+        "precio": "600,00"
+    },
+    {
+        "id": 3,
+        "nombre": "Moto",
+        "img": "../ImgVehiculos/v3.jpg",
+        "descripcion": "Motos ics 150cc",
+        "precio": "870,00"
+    },
+    {
+        "id": 4,
+        "nombre": "Moto",
+        "img": "../ImgVehiculos/v4.jpg",
+        "descripcion": "Moto 2021",
+        "precio": "1.200,00"
+    },
+    {
+        "id": 5,
+        "nombre": "Moto",
+        "img": "../ImgVehiculos/v5.jpg",
+        "descripcion": "Motos doble propósito",
+        "precio": "1.200,00"
+    },
+    {
+        "id": 6,
+        "nombre": "Bicicleta",
+        "img": "../ImgVehiculos/v6.jpg",
+        "descripcion": "Bicicleta rin 29",
+        "precio": "130,00"
+    },
+    {
+        "id": 7,
+        "nombre": "Bicicleta",
+        "img": "../ImgVehiculos/v7.jpg",
+        "descripcion": "Hermosa bicicleta rin 20",
+        "precio": "45,00"
+    },
+    {
+        "id": 8,
+        "nombre": "Bicicleta",
+        "img": "../ImgVehiculos/v8.jpg",
+        "descripcion": "Bicicleta con motor",
+        "precio": "98,00"
+    },
+    {
+        "id": 9,
+        "nombre": "Bicicleta",
+        "img": "../ImgVehiculos/v9.jpg",
+        "descripcion": "Bicicleta BMX",
+        "precio": "80,00"
+    },
+    {
+        "id": 10,
+        "nombre": "Autos",
+        "img": "../ImgVehiculos/v10.jpg",
+        "descripcion": "Autos",
+        "precio": "1.200,00"
+    },
+    {
+        "id": 11,
+        "nombre": "Autos",
+        "img": "../ImgVehiculos/v11.jpg",
+        "descripcion": "Autos Chevrolet Sail 2012 14",
+        "precio": "5.000,00"
+    },
+    {
+        "id": 12,
+        "nombre": "Taximoto",
+        "img": "../ImgVehiculos/taximoto.jpg",
+        "descripcion": "Taximoto con localizador satelital",
+        "precio": "110,00"
+    },
+    {
+        "id": 13,
+        "nombre": "Taximoto",
+        "img": "../ImgVehiculos/taximoto.jpg",
+        "descripcion": "Mototaxi",
+        "precio": "100,00"
+    },
+    {
+        "id": 14,
+        "nombre": "Cuadrón",
+        "img": "../ImgVehiculos/Cuadron.jpg",
+        "descripcion": "Promoción cuadrón de niño",
+        "precio": "580,00"
+    },
+    {
+        "id": 15,
+        "nombre": "Cuadrón",
+        "img": "../ImgVehiculos/Cuadron1.jpg",
+        "descripcion": "Cuadrón",
+        "precio": "800,00"
+    },
+    {
+        "id": 16,
+        "nombre": "Cuadrón",
+        "img": "../ImgVehiculos/Cuadron2.jpg",
+        "descripcion": "Cuadrón",
+        "precio": "900,00"
+    }
+]

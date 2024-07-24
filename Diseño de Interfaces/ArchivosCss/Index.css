@@ -1,0 +1,183 @@
+body {
+    background-color: white;
+    padding: 0%;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+/* encabezado */
+#navbarTogglerDemo01 {
+    background-color: #073fe9;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    top: 0;
+}
+#navbarTogglerDemo01
+.navbar-brand {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+}
+#navbarTogglerDemo01
+.navbar-brand:hover{
+    text-shadow: 2px 5px 5px rgb(10, 10, 10); 
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-top: 20px;
+}
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+    text-shadow: 2px 5px 5px rgb(10, 10, 10);
+}
+.navbar-nav .nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.navbar-nav .nav-link:hover {
+    color: white;
+    text-shadow: 2px 5px 5px rgb(10, 10, 10);
+}
+.inicioBC{
+    background-image: url('../Imagenes/fondoInicio.avif');
+    text-align: center;
+}
+.inicioBC img{
+    max-width: 100%;
+    height: auto;
+}
+/* -----------------------------------------------------main----------------------------- */
+.container-fluid {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.facebook {
+    padding: 20px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+}
+.publicidad {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+}
+.publicidad span {
+    color: rgb(12, 130, 240);
+    font-size: 70px;
+}
+/* contenedor 2  */
+.info {
+    padding: 40px;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+/* productos destacados  */
+.contenedorDestacados {
+    background-color: white;
+    text-align: center;
+    padding: 20px; /* Ajusta el relleno según tus necesidades */
+}
+#imgDestacados .row {
+    display: flex;
+    justify-content: center; /* Centra las columnas horizontalmente */
+}
+#imgDestacados .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido dentro de la columna */
+    text-align: center; /* Centra el texto dentro de cada columna */
+}
+#imgDestacados img {
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+#imgDestacados {
+    padding: 50px;
+    background-color: white;
+}
+#contenido {
+    text-align: justify;
+    background-color: white;
+}
+.tituloPrincipal {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: rgb(9, 123, 237);
+    text-shadow:  0 0 20px rgba(19, 19, 20, 0.5);
+}
+.titulo{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(9, 9, 9);
+}
+.parrafo{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+/*.................................................................... redesSociales */
+.redesSociales {
+    background-color: black;
+    text-align: center;
+}
+.redesSociales h1 {
+    color: white;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 30px;
+}
+.redesSociales p a {
+    text-decoration: none;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+}
+.logo {
+    padding-top: 45px;
+}
+/* footer */
+.footer {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.footer span {
+    color: rgb(9, 123, 237);
+    font-weight: bold;
+}
