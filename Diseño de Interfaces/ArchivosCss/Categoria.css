@@ -1,0 +1,159 @@
+body {
+    background-color: white;
+    padding: 0%;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Estilos de categorías */
+.dropdown {
+    margin-top: 20px;
+}
+
+.dropdown button {
+    padding: 4px 40px;
+    border-left: 100px;
+    color: white;
+    background-color: rgb(12, 130, 240);
+}
+
+.dropdown button:hover {
+    background-color: rgb(123, 175, 227);
+    text-shadow: 2px 2px 2px rgb(5, 5, 5);
+}
+
+.dropdown-menu {
+    background-color: rgb(12, 130, 240);
+    color: white;
+}
+
+/* Estilos del buscador */
+.contenedorBuscar {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    justify-content: right;
+    padding: 20px;
+}
+
+.contenedorBuscar input {
+    width: 100%;
+    max-width: 400px;
+    margin-right: 10px;
+}
+
+.contenedorBuscar button {
+    padding: 4px 40px;
+    border-left: 100px;
+    color: white;
+    background-color: rgb(12, 130, 240);
+}
+
+.contenedorBuscar button:hover {
+    background-color: rgb(123, 175, 227);
+    text-shadow: 2px 2px 2px rgb(5, 5, 5);
+}
+
+/* Estilos de contenedorProductos */
+.contenedorProductos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedorProductos .col-md-2 {
+    text-align: center;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+
+.producto {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.producto img {
+    width: 150px; /* Ancho fijo para todas las imágenes de productos */
+    height: 150px; /* Altura fija para todas las imágenes de productos */
+    object-fit: cover; /* Mantiene la proporción y cubre el área del contenedor */
+    display: block;
+    margin: 0 auto;
+}
+
+.producto button:hover {
+    background-color: rgb(122, 231, 14);
+    color: black;
+}
+
+/* Carrito */
+.carrito {
+    position: relative;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.carrito .badge {
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    font-size: 1rem;
+    background-color: chartreuse;
+    color: black;
+}
+
+/* Estilos de modal */
+.modal-header h4 {
+    color: rgb(10, 9, 9);
+}
+
+.btn-close {
+    filter: invert(1);
+}
+
+.modal-footer button {
+    background-color: #2350e4;
+    color: white;
+    font-size: 20px;
+    width: 20%;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.modal-footer button:hover {
+    background-color: #1ada0f;
+    color: black;
+}
+
+#productosCarrito {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#productosCarrito .col-md-3 {
+    text-align: center;
+    border: 2px solid rgb(16, 202, 44);
+    border-radius: 20px;
+    margin: 0 10px;
+    margin-bottom: 20px;
+}    
+
+#productosCarrito .producto {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#productosCarrito .producto img {
+    width: 170px; 
+    height: 170px; 
+}
+
+
+#cantidadCarrito{
+    text-align: right;
+}
+#totalCarritoModal{
+    text-align: center;
+}

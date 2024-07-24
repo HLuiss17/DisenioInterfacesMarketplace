@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "nombre": "Zapatos deportivos",
+        "img": "../ImgVestimenta/Oferta de zapatos deportivos1.jpg",
+        "descripcion": "Oferta de zapatos deportivos",
+        "precio": "0,00"
+    },
+    {
+        "id": 2,
+        "nombre": "Zapatos",
+        "img": "../ImgVestimenta/Zapatos2.jpg",
+        "descripcion": "Zapatos en cuero con planta sintética",
+        "precio": "35,00"
+    },
+    {
+        "id": 3,
+        "nombre": "Zapatos",
+        "img": "../ImgVestimenta/Zapato3.jpg",
+        "descripcion": "Zapatos deportivos de hombre talla 43",
+        "precio": "45,00"
+    },
+    {
+        "id": 4,
+        "nombre": "Vestido",
+        "img": "../ImgVestimenta/Vestido4.jpg",
+        "descripcion": "Vestido de gala talla S",
+        "precio": "25,00"
+    },
+    {
+        "id": 5,
+        "nombre": "Vestido",
+        "img": "../ImgVestimenta/vestido5.jpg",
+        "descripcion": "Casual Tommy Hilfiger para mujer",
+        "precio": "22,00"
+    },
+    {
+        "id": 6,
+        "nombre": "Pantalón",
+        "img": "../ImgVestimenta/pantalon7.jpg",
+        "descripcion": "Pantalón talla 46",
+        "precio": "10,00"
+    },
+    {
+        "id": 7,
+        "nombre": "Chaqueta",
+        "img": "../ImgVestimenta/Chaqueta6.webp",
+        "descripcion": "Chaqueta Monster",
+        "precio": "10,00"
+    },
+    {
+        "id": 8,
+        "nombre": "Pantalón",
+        "img": "../ImgVestimenta/pantalon8.jpg",
+        "descripcion": "Pantalón talla 46",
+        "precio": "44,00"
+    },
+    {
+        "id": 9,
+        "nombre": "Pantalón",
+        "img": "../ImgVestimenta/Pantalón rompevientos9.jpg",
+        "descripcion": "Pantalón rompevientos",
+        "precio": "10,00"
+    },
+    {
+        "id": 10,
+        "nombre": "Camisas",
+        "img": "../ImgVestimenta/camisa10.jpg",
+        "descripcion": "Camisas manga larga stretch",
+        "precio": "18,00"
+    },
+    {
+        "id": 11,
+        "nombre": "Camisas",
+        "img": "../ImgVestimenta/camisas11.jpg",
+        "descripcion": "Hermosas camisas playeras",
+        "precio": "18,00"
+    },
+    {
+        "id": 12,
+        "nombre": "Camisas",
+        "img": "../ImgVestimenta/camisa10.jpg",
+        "descripcion": "Camisas manga larga stretch",
+        "precio": "18,00"
+    },
+    {
+        "id": 13,
+        "nombre": "Camisas",
+        "img": "../ImgVestimenta/camisa3.jpg",
+        "descripcion": "Camisas de cuerina",
+        "precio": "19,00"
+    },
+    {
+        "id": 14,
+        "nombre": "Playera",
+        "img": "../ImgVestimenta/playera14.jpg",
+        "descripcion": "Playeras Stranger Things",
+        "precio": "28,00"
+    },
+    {
+        "id": 15,
+        "nombre": "Gorra",
+        "img": "../ImgVestimenta/gorra15.jpg",
+        "descripcion": "Gorras para caballeros",
+        "precio": "18,00"
+    },
+    {
+        "id": 16,
+        "nombre": "Gorra",
+        "img": "../ImgVestimenta/Gorra16.jpg",
+        "descripcion": "Gorras originales 🇺🇸",
+        "precio": "12,00"
+    }
+]
