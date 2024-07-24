@@ -1,0 +1,114 @@
+[
+    {
+        "id":1,
+        "nombre": "Vehículos ",
+        "img": "../ImgVehiculos/Vehículos1.jpg",
+        "descripcion": "Vehículo",
+        "precio":"700.00"
+    },
+    {
+        "id":2,
+        "nombre": "Moto",
+        "img": "../ImgVehiculos/v2.jpg",
+        "descripcion": "CRÉDITO SIN ENTRADA",
+        "precio":"600.00"
+    },
+    {
+        "id":3,
+        "nombre": "Moto",
+        "img": "../ImgVehiculos/v3.jpg",
+        "descripcion": "Motos ics 150cc",
+        "precio":"870.00"
+    },
+    {
+        "id":4,
+        "nombre": "Moto",
+        "img": "../ImgVehiculos/v4.jpg",
+        "descripcion": "Moto 2021",
+        "precio":"1200.00"
+    },
+    {
+        "id":5,
+        "nombre": "Moto",
+        "img": "../",
+        "descripcion": "MOTOS DOBLE PROPOSITO",
+        "precio":"1200.00"
+    },
+    {
+        "id":6,
+        "nombre": "Bicicleta ",
+        "img": "../",
+        "descripcion": "Bicicleta rin 29",
+        "precio":"130.00"
+    },
+    {
+        "id":7,
+        "nombre": "Bicicleta",
+        "img": "../",
+        "descripcion": "ZHermosa bicicleta rin 20",
+        "precio":"45.00"
+    },
+    {
+        "id":8,
+        "nombre": "Bicicleta",
+        "img": "../",
+        "descripcion": "Bici con motor",
+        "precio":"98.00"
+    },
+    {
+        "id":9,
+        "nombre": "Bicicleta",
+        "img": "../",
+        "descripcion": "Bicicleta BMX",
+        "precio":"80.00"
+    },
+    {
+        "id":10,
+        "nombre": "Autos",
+        "img": "../",
+        "descripcion": "Autos",
+        "precio":"1200.00"
+    },
+    {
+        "id":11,
+        "nombre": "Autos ",
+        "img": "../",
+        "descripcion": "AUTOS CHEVROLET SAIL 2012 14",
+        "precio":"5000.00"
+    },
+    {
+        "id":12,
+        "nombre": "Autos",
+        "img": "../",
+        "descripcion": "Auto",
+        "precio":"5200.00"
+    },
+    {
+        "id":13,
+        "nombre": "Autos",
+        "img": "../",
+        "descripcion": "Zapatos deportivos",
+        "precio":"12.00"
+    },
+    {
+        "id":14,
+        "nombre": "Autos",
+        "img": "../",
+        "descripcion": "Zapatos deportivos",
+        "precio":"12.00"
+    },
+    {
+        "id":15,
+        "nombre": "Autos",
+        "img": "../",
+        "descripcion": "Zapatos deportivos",
+        "precio":"12.00"
+    },
+    {
+        "id":16,
+        "nombre": "Autos",
+        "img": "../",
+        "descripcion": "Zapatos deportivos",
+        "precio":"12.00"
+    }
+]

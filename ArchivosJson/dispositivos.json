@@ -1,0 +1,114 @@
+[
+    {
+        "id":1,
+        "nombre": "Celular",
+        "img": "../ImgDispositivos/tecno.png",
+        "descripcion": "Tecno Camon 30 256GB ",
+        "precio":"120.00"
+    },
+    {
+        "id":2,
+        "nombre": "Celular",
+        "img": "../ImgDispositivos/xiami.png",
+        "descripcion": "Xiaomi Redmi Note 13 ",
+        "precio":"235.00"
+    },
+    {
+        "id":3,
+        "nombre": "Celular",
+        "img": "../ImgDispositivos/Xiaomi Redmi.png",
+        "descripcion": "Xiaomi Redmi",
+        "precio":"250.00"
+    },
+    {
+        "id":4,
+        "nombre": "Celular",
+        "img": "../ImgDispositivos/Xiaomi Note 13 Pro.png",
+        "descripcion": "Xiaomi Note 13 Pro",
+        "precio":"120.00"
+    },
+    {
+        "id":5,
+        "nombre": "Celular",
+        "img": "../ImgDispositivos/Xiaomi Redmi2.png",
+        "descripcion": "Xiaomi Note 13 Pro ",
+        "precio":"120.00"
+    },
+    {
+        "id":6,
+        "nombre": "Celular",
+        "img": "../ImgDispositivos/Xiaomi Redmi.png",
+        "descripcion": "Xiaomi Redmi",
+        "precio":"250.00"
+    },
+    {
+        "id":7,
+        "nombre": "Celular",
+        "img": "../ImgDispositivos/Samsung Galaxy.png",
+        "descripcion": "Samsung Galaxy",
+        "precio":"200.00"
+    },
+    {
+        "id":8,
+        "nombre": "Celular",
+        "img": "../ImgDispositivos/Infinix Smart.png",
+        "descripcion": "Infinix Smart",
+        "precio":"127.00"
+    },
+    {
+        "id":9,
+        "nombre": "Cargador",
+        "img": "../ImgDispositivos/cargadores.PNG",
+        "descripcion": "ZCargador Pared Samsung Super Rapido 45w",
+        "precio":"12.00"
+    },
+    {
+        "id":10,
+        "nombre": "Reloj",
+        "img": "../ImgDispositivos/Reloj2.PNG",
+        "descripcion": "Zapatos deportivos",
+        "precio":"12.00"
+    },
+    {
+        "id":11,
+        "nombre": "Adaptador",
+        "img": "../ImgDispositivos/adap.PNG",
+        "descripcion": "Adaptador De Corriente",
+        "precio":"24.00"
+    },
+    {
+        "id":12,
+        "nombre": "Cargador",
+        "img": "../ImgDispositivos/cargadorOriginal.PNG",
+        "descripcion": "Cargador Original",
+        "precio":"12.00"
+    },
+    {
+        "id":13,
+        "nombre": "Cable USB",
+        "img": "../ImgDispositivos/cable usb.PNG",
+        "descripcion": "Dex Cabo",
+        "precio":"19.00"
+    },
+    {
+        "id":14,
+        "nombre": "Reloj",
+        "img": "../ImgDispositivos/Reloj.PNG",
+        "descripcion": "Reloj inteligente",
+        "precio":"35.00"
+    },
+    {
+        "id":15,
+        "nombre": "Cargador",
+        "img": "../ImgDispositivos/Cargador auto.PNG",
+        "descripcion": "Cargador auto",
+        "precio":"16.00"
+    },
+    {
+        "id":16,
+        "nombre": "Soporte",
+        "img": "../ImgDispositivos/Soporte.PNG",
+        "descripcion": "Soporte Cargador",
+        "precio":"15.00"
+    }
+]

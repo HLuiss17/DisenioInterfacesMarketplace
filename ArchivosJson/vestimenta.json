@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pantalon",
+        "img": "../Imagenes/celular.jpg",
+        "descripcion": "Pantalon talla 46",
+        "precio": "$ 10,00"
+    },
+    {
+        "id": 1,
+        "nombre": "Pantalon",
+        "img": "../Imagenes/celular.jpg",
+        "descripcion": "Pantalon talla 46",
+        "precio": "$ 10,00"
+    },
+    {
+        "id": 1,
+        "nombre": "Pantalon",
+        "img": "../Imagenes/celular.jpg",
+        "descripcion": "Pantalon talla 46",
+        "precio": "$ 10,00"
+    },
+    {
+        "id": 1,
+        "nombre": "Pantalon",
+        "img": "../Imagenes/celular.jpg",
+        "descripcion": "Pantalon talla 46",
+        "precio": "$ 10,00"
+    },
+    {
+        "id": 1,
+        "nombre": "Pantalon",
+        "img": "../Imagenes/celular.jpg",
+        "descripcion": "Pantalon talla 46",
+        "precio": "$ 10,00"
+    },
+    {
+        "id": 1,
+        "nombre": "Pantalon",
+        "img": "../Imagenes/celular.jpg",
+        "descripcion": "Pantalon talla 46",
+        "precio": "$ 10,00"
+    },
+    {
+        "id": 1,
+        "nombre": "Pantalon",
+        "img": "../Imagenes/celular.jpg",
+        "descripcion": "Pantalon talla 46",
+        "precio": "$ 10,00"
+    },
+    {
+        "id": 1,
+        "nombre": "Pantalon",
+        "img": "../Imagenes/celular.jpg",
+        "descripcion": "Pantalon talla 46",
+        "precio": "$ 10,00"
+    },
+    {
+        "id": 1,
+        "nombre": "Pantalon",
+        "img": "../Imagenes/celular.jpg",
+        "descripcion": "Pantalon talla 46",
+        "precio": "$ 10,00"
+    },
+    {
+        "id": 1,
+        "nombre": "Pantalon",
+        "img": "../Imagenes/celular.jpg",
+        "descripcion": "Pantalon talla 46",
+        "precio": "$ 10,00"
+    }
+]
