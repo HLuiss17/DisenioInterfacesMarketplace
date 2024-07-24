@@ -1,5 +1,6 @@
 // Variables
 var carritoCompras = [];
+var totalCarrito = 0;
 
 // Función para cargar productos
 function cargarProductos(categoria) {
@@ -14,7 +15,6 @@ function cargarProductos(categoria) {
 }
 
 // Función para mostrar productos en el contenedor
-
 function categoriaProductos(data) {
     const contenedor = document.getElementById('contenedorProductos');
     const contenedor1 = document.getElementById('contenedorProductos1');
@@ -32,7 +32,7 @@ function categoriaProductos(data) {
         const productoDiv = document.createElement('div');
         productoDiv.className = 'col-md-2 col-sm-4 col-6 producto';
 
-        const nombre = document.createElement('h1');
+        const nombre = document.createElement('h4');
         nombre.textContent = producto.nombre;
 
         const imagen = document.createElement('img');
@@ -44,6 +44,7 @@ function categoriaProductos(data) {
 
         const precio = document.createElement('p');
         precio.textContent = producto.precio || '';
+        const br = document.createElement('br');
 
         const btn = document.createElement('button');
         btn.innerHTML = 'Comprar <i class="bi bi-cart"></i>';
@@ -56,6 +57,7 @@ function categoriaProductos(data) {
         productoDiv.appendChild(imagen);
         productoDiv.appendChild(descripcion);
         productoDiv.appendChild(precio);
+        productoDiv.appendChild(br);
         productoDiv.appendChild(btn);
 
         contador++;
@@ -93,6 +95,8 @@ function actualizarModalCarrito() {
     const productosCarrito = document.getElementById('productosCarrito');
     productosCarrito.innerHTML = ''; // Limpiar contenido anterior
 
+    totalCarrito = 0; // Reiniciar el total
+
     carritoCompras.forEach(producto => {
         const productoDiv = document.createElement('div');
         productoDiv.className = 'col-md-3 col-sm-4 col-6 producto';
@@ -117,7 +121,14 @@ function actualizarModalCarrito() {
         productoDiv.appendChild(precio);
 
         productosCarrito.appendChild(productoDiv);
+
+        // Sumar el precio al total
+        totalCarrito += parseFloat(producto.precio.replace(',', '.'));
     });
+
+    // Actualizar el total en el modal
+    const totalCarritoModal = document.getElementById('totalCarritoModal');
+    totalCarritoModal.textContent = `Total: $${totalCarrito.toFixed(2)}`;
 }
 
 // Función para agregar productos al carrito
@@ -125,7 +136,7 @@ function agregarAlCarrito(producto) {
     carritoCompras.push(producto);
     console.log('Carrito', carritoCompras);
     actualizarIconCarrito();
-    actualizarModalCarrito(); // Actualiza el contenido del modal
+    actualizarModalCarrito(); 
 }
 
 // Función para actualizar el icono del carrito
@@ -134,13 +145,22 @@ function actualizarIconCarrito() {
     document.getElementById('cantidadCarrito').textContent = cantidad;
 }
 
+// Función para manejar el clic en el botón "Comprar" en el modal
+function manejarCompra() {
+    alert('Su compra fue exitosa!');
+    carritoCompras = []; 
+    actualizarIconCarrito(); 
+    actualizarModalCarrito(); 
+}
 
+// Función para cambiar la categoría de productos
 function cambiarCategoria(categoria) {
     cargarProductos(categoria);
     const botonCategorias = document.getElementById('categorias');
     const textoCategoria = categoria.charAt(0).toUpperCase() + categoria.slice(1);
     botonCategorias.textContent = textoCategoria;
 }
+
 // Cargar productos y agregar evento al campo de búsqueda
 document.addEventListener('DOMContentLoaded', function () {
     cargarProductos('categoriasPrincipal'); 
@@ -151,4 +171,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     document.getElementById('txtBuscar').addEventListener('input', buscarProducto);
+
+    document.getElementById('btnComprar').addEventListener('click', manejarCompra);
 });

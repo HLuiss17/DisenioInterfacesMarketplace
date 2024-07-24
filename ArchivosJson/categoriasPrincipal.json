@@ -1,114 +1,114 @@
 [
     {
-        "id":1,
+        "id": 1,
         "nombre": "Moto",
         "img": "../ImgCategorias/moto.jpg",
-        "descripcion": "Yamaha Dt 175",
-        "precio":"175,00"
+        "descripcion": "Yamaha DT 175",
+        "precio": "175,00"
     },
     {
-        "id":2,
+        "id": 2,
         "nombre": "Sillas",
         "img": "../ImgCategorias/SillaGamer.jpg",
         "descripcion": "Sillas gamer",
-        "precio":"119.00"
+        "precio": "119,00"
     },
     {
-        "id":3,
+        "id": 3,
         "nombre": "Guitarra",
         "img": "../ImgCategorias/Guitarra.jpg",
         "descripcion": "Guitarra",
-        "precio":"25.00"
+        "precio": "25,00"
     },
     {
-        "id":4,
+        "id": 4,
         "nombre": "Chompas",
         "img": "../ImgCategorias/chompasJuvenil.jpg",
-        "descripcion": "CHOMPAS JUVENIL",
-        "precio":"12.00"
+        "descripcion": "Chompas juvenil",
+        "precio": "12,00"
     },
     {
-        "id":5,
-        "nombre": "Taladro ",
+        "id": 5,
+        "nombre": "Taladro",
         "img": "../ImgCategorias/Taladro.jpg",
-        "descripcion": "TALADRO INALAMBRICO DEWALT+KIT 24V ",
-        "precio":"30.00"
+        "descripcion": "Taladro inalámbrico Dewalt + Kit 24V",
+        "precio": "30,00"
     },
     {
-        "id":6,
+        "id": 6,
         "nombre": "Cascos",
         "img": "../ImgCategorias/cascosPareja.jpg",
         "descripcion": "Cascos para pareja",
-        "precio":"12.00"
+        "precio": "12,00"
     },
     {
-        "id":7,
-        "nombre": "Pc escritorio",
+        "id": 7,
+        "nombre": "PC escritorio",
         "img": "../ImgCategorias/pcEscritorio.jpg",
-        "descripcion": "ryzen 5 gráfica RTX 3050",
-        "precio":"100.00"
+        "descripcion": "Ryzen 5 gráfica RTX 3050",
+        "precio": "100,00"
     },
     {
-        "id":8,
+        "id": 8,
         "nombre": "Refri",
         "img": "../ImgCategorias/Refrigeradora.PNG",
-        "descripcion": "REFRIGERADORA 2P Y COCINA 6Q",
-        "precio":"85.00"
+        "descripcion": "Refrigeradora 2P y cocina 6Q",
+        "precio": "85,00"
     },
     {
-        "id":9,
+        "id": 9,
         "nombre": "Cocina",
         "img": "../ImgCategorias/cocina.jpg",
         "descripcion": "Cocina",
-        "precio":"90.00"
+        "precio": "90,00"
     },
     {
-        "id":10,
+        "id": 10,
         "nombre": "Sillones",
         "img": "../ImgCategorias/sillones.jpg",
-        "descripcion": "Zapatos deportivos",
-        "precio":"12.00"
+        "descripcion": "Sillones",
+        "precio": "12,00"
     },
     {
-        "id":11,
+        "id": 11,
         "nombre": "Armarios",
         "img": "../ImgCategorias/armarios.jpg",
-        "descripcion": "ARMARIOS CLOSET",
-        "precio":"115.00"
+        "descripcion": "Armarios closet",
+        "precio": "115,00"
     },
     {
-        "id":12,
-        "nombre": "Tv",
+        "id": 12,
+        "nombre": "TV",
         "img": "../ImgCategorias/TV.jpg",
-        "descripcion": "TV de 50 Pulgadas DIGGIO Smart",
-        "precio":"200.00"
+        "descripcion": "TV de 50 pulgadas Diggio Smart",
+        "precio": "200,00"
     },
     {
-        "id":13,
+        "id": 13,
         "nombre": "PC Gamer",
         "img": "../ImgCategorias/PCgAMER.jpg",
-        "descripcion": "PC Gamer / Profesional Ryzen ",
-        "precio":"1200.00"
+        "descripcion": "PC Gamer / Profesional Ryzen",
+        "precio": "1200,00"
     },
     {
-        "id":14,
+        "id": 14,
         "nombre": "Mini lavadoras",
         "img": "../ImgCategorias/LAVADORA.jpg",
         "descripcion": "Mini lavadoras portátiles",
-        "precio":"65.00"
+        "precio": "65,00"
     },
     {
-        "id":15,
-        "nombre": "LG turboDrum",
+        "id": 15,
+        "nombre": "LG TurboDrum",
         "img": "../ImgCategorias/LG turboDrum.jpg",
-        "descripcion": "LG turboDrum de 18 kg color original",
-        "precio":"52.00"
+        "descripcion": "LG TurboDrum de 18 kg color original",
+        "precio": "52,00"
     },
     {
-        "id":16,
-        "nombre": "Repisas ",
+        "id": 16,
+        "nombre": "Repisas",
         "img": "../ImgCategorias/Repisas.jpg",
         "descripcion": "Repisas flotantes",
-        "precio":"35.00"
+        "precio": "35,00"
     }
 ]

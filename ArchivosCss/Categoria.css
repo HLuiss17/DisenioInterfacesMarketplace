@@ -146,14 +146,14 @@ body {
 }
 
 #productosCarrito .producto img {
-    width: 150px; /* Ancho fijo para las imágenes en el modal del carrito */
-    height: 150px; /* Altura fija para las imágenes en el modal del carrito */
-    object-fit: cover; /* Mantiene la proporción y cubre el área del contenedor */
+    width: 170px; 
+    height: 170px; 
 }
 
-/* Estilo para las imágenes de productos en las redes sociales */
-.redesSociales .logo img {
-    width: 150px; /* Ancho fijo para las imágenes en las redes sociales */
-    height: 150px; /* Altura fija para las imágenes en las redes sociales */
-    object-fit: cover; /* Mantiene la proporción y cubre el área del contenedor */
+
+#cantidadCarrito{
+    text-align: right;
+}
+#totalCarritoModal{
+    text-align: center;
 }
