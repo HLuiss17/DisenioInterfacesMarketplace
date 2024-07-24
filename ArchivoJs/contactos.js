@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Función para contar las palabras
     function contarPalabras(texto) {
         return texto.trim().split(/\s+/).length;
-    }
+    }     
 
-    // Función para validar la cantidad de palabras
+    // Función para validar la cantidad de palabras     
     function validarPalabras() {
         const mensaje = mensajeInput.value.trim();
         if (contarPalabras(mensaje) > 25) {
